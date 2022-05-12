@@ -28,8 +28,8 @@ public class ThreadedContentCrawl {
                     .execute();
             String imgName = imgElement.attr("alt");
             ByteArrayInputStream stream = new ByteArrayInputStream((response.bodyAsBytes()));
-            FileUtils.copyInputStreamToFile(stream, new File("D://webCrawler/"+i+imgName+".png"));
-            System.out.println("image download: D://webCrawler/"+i+imgName+".png");
+            FileUtils.copyInputStreamToFile(stream, new File("D://webCrawler/"+imgName+".png"));
+            System.out.println("image download: D://webCrawler/"+imgName+".png");
         }
     }
 
