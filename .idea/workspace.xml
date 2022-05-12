@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28b98b79-e319-4c89-896b-2c70467f3318" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/ThreadedDataCrawl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/ContentCrawl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/ContentCrawl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/ThreadedContentCrawl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/ThreadedContentCrawl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/UrlMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/UrlMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/ContentCrawl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/DataCrawl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/ThreadedContentCrawl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/UrlMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/UrlPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/finalproject/WebCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalproject/WebCrawler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,25 +42,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/38953/Downloads/fastjson-2.0.2.graal.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/38953/Downloads/fastjson-2.0.2.graal.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
-  <component name="RunManager" selected="Application.WebCrawler">
-    <configuration name="ContentCrawl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.finalproject.ContentCrawl" />
+}]]></component>
+  <component name="RunManager" selected="Application.com.finalproject.WebCrawler">
+    <configuration name="UrlPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.finalproject.UrlPool" />
       <module name="WebCrawler" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UrlMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.finalproject.UrlMap" />
+    <configuration name="com.finalproject.DataCrawl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.finalproject.DataCrawl" />
       <module name="WebCrawler" />
       <extension name="coverage">
         <pattern>
@@ -84,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="com.finalproject.WebCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.finalproject.WebCrawler" />
       <module name="WebCrawler" />
       <extension name="coverage">
@@ -99,9 +101,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WebCrawler" />
-        <item itemvalue="Application.UrlMap" />
-        <item itemvalue="Application.ContentCrawl" />
+        <item itemvalue="Application.com.finalproject.WebCrawler" />
+        <item itemvalue="Application.com.finalproject.UrlPool" />
+        <item itemvalue="Application.com.finalproject.DataCrawl" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +120,7 @@
       <workItem from="1652051031826" duration="8492000" />
       <workItem from="1652118744077" duration="24115000" />
       <workItem from="1652298743994" duration="2521000" />
-      <workItem from="1652305546955" duration="3883000" />
+      <workItem from="1652305546955" duration="19583000" />
     </task>
     <servers />
   </component>
